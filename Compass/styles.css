@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.direction {
+  color: red;
+  font-size: 2.5em;
+}
+
+.diagonal {
+  transform: rotate(-45deg);
+}
+
+#leftRightBtn,
+.diagonal {
+  width: 40px;
+  height: 50px;
+  font-size: 1.5em;
+  color: darkblue;
+}
+div {
+  align-items: center;
+  display: grid;
+  width: 20%;
+  height: 300px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-left: 50px;
+}
